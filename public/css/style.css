@@ -1,0 +1,162 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh ;
+    margin: 0 ;
+}
+.container {
+    flex: 1;
+    max-width: 1200px !important;
+    margin: 0 auto;
+}
+/*navbar*/
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-compass {
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link {
+    color: #222222 !important;
+}
+
+/*footer*/
+
+.f-info-links a{
+    text-decoration: none !important; ;
+    color: #222222;
+    margin-bottom: 1rem;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline !important;
+}
+
+.f-info-links, .f-info-social, .f-info-brand{
+    width: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.f-info-social i{
+    font-size: 1rem;
+    margin: .8rem;
+}
+
+.f-info {
+    text-align: center ;
+    height: 7rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/*card*/
+
+.card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+
+.card-img-top {
+    border-radius: 1rem !important; 
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+
+
+.card p {
+    font-weight: 400 !important;
+    color: #222222 !important;
+}
+
+.listing-list {
+    text-decoration: none !important;
+}
+
+/*card effect*/
+.card-img-overlay {
+    opacity: 0 !important;
+    transition: .5s ease;
+}
+
+.card-img-overlay:hover {
+    opacity: .2 !important;
+    background-color: white !important;
+}
+
+/*new ejs*/
+.add-btn {
+    background-color: #fe424d !important;
+    color: white !important;
+    border: none !important;
+}
+
+.add-btn:hover {
+    background-color: #ff6b7d !important;
+}
+
+/*edit ejs*/
+.update-btn {
+    background-color: #fe424d !important;
+    color: white !important;
+    border: none !important;
+}
+
+.update-btn:hover {
+    background-color: #ff6b7d !important;
+}
+
+/*show ejs*/
+
+.show-img {
+   height: 50vh;
+   width: 50vw;
+
+   
+}
+
+.edit-btn{
+    background-color: #fe424d !important;
+    color: white !important;
+    border: none !important;
+}
+
+.edit-btn:hover {
+    background-color: #ff6b7d !important;
+}
+
+.delete-btn {
+    background-color: #fe424d !important;
+    color: white !important;
+    border: none !important;
+}
+
+.delete-btn:hover {
+    background-color: #ff6b7d !important;
+}
+
+.btns {
+    display: flex;
+    white-space: unset;
+    justify-content: center;
+}
+
+.show-card {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
