@@ -152,8 +152,7 @@ body{
 
 .btns {
     display: flex;
-    white-space: unset;
-    justify-content: center;
+    white-space: nowrap;
 }
 
 .show-card {
