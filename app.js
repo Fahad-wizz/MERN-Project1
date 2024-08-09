@@ -134,5 +134,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(8080, () => {
-  console.log("server is on https://localhost:8080/listings");
+  console.log("server is on http://localhost:8080/listings");
 });
